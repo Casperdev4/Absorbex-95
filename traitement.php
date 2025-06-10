@@ -25,6 +25,7 @@ function est_email_valide($email) {
 
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
+$email = htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 

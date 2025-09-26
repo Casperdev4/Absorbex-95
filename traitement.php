@@ -70,8 +70,7 @@ try {
     $mail->Port       = 465;
 
     $mail->setFrom('contact@webprime.fr', 'Absorbex 95');
-    $mail->addAddress('contact.assainissement@gmail.com');
-    $mail->addAddress('info.assainissement@gmail.com');
+    $mail->addAddress('contact.aquaserv@gmail.com');
     $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
